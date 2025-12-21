@@ -1,10 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "YggTorrent Fast Download",
-  "version": "1.0",
-  "description": "Bypass l'attente de téléchargement sur YggTorrent.",
+  "name": "YggTorrent Fast Download + Magnet",
+  "version": "1.2",
+  "description": "Bypass l'attente de téléchargement et la limite sur YggTorrent. Intègre TurboBlague.",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "host_permissions": [
     "*://*.yggtorrent.org/*",

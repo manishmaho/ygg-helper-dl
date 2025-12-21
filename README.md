@@ -1,16 +1,20 @@
-# ⚡ YggTorrent Timer Bypass
+# ⚡ YggTorrent Helper (Timer Bypass & Magnet)
 
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.2-blue.svg)
 ![Compatibility](https://img.shields.io/badge/browser-Chrome%20%7C%20Opera-red.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-Une extension web légère et rapide pour contourner le temps d'attente de téléchargement sur YggTorrent.
+Une extension web complète pour YggTorrent qui permet de contourner le temps d'attente et de générer des liens Magnet instantanément.
 
 ## 🚀 Fonctionnalités
 
-- **Détection Automatique** : Détecte instantanément l'ID du torrent lorsque vous naviguez sur une page de téléchargement.
-- **Bypass du Timer** : Génère un lien de téléchargement direct (`/engine/download_torrent?id=...`) sans attendre les 30 secondes.
-- **Notification Intelligente** : Affiche une notification discrète en bas de page avec un bouton "Télécharger maintenant".
-- **Interface Popup** : Permet de saisir manuellement un ID si nécessaire.
+- **Bypass du Timer** : Téléchargement direct du `.torrent` sans attendre les 30 secondes.
+- **Génération Magnet (TurboBlague)** : Créez des liens magnet instantanément en utilisant votre Passkey.
+- **Intégration Fluide** :
+  - Bouton **"🧲 Magnet"** ajouté directement sur la page du torrent.
+  - Notification intelligente en bas de page avec options de téléchargement rapide.
+- **Open Source** : Code clair, lisible et auditable. Plus d'obfuscation.
+- **Gestion du Passkey** : Sauvegardez votre Passkey sécurisé dans l'extension pour la génération des magnets.
 
 ## 📦 Installation
 
@@ -32,19 +36,26 @@ Cette extension n'est pas disponible sur le Chrome Web Store. Vous devez l'insta
 
 ## 🛠️ Utilisation
 
-1. Naviguez simplement sur une page de torrent sur YggTorrent.
-2. Une notification apparaîtra en bas à droite avec un bouton **"Télécharger maintenant"**.
-3. Cliquez dessus pour lancer le téléchargement immédiatement.
+### Pour le téléchargement direct (.torrent)
+1. Naviguez sur une page de torrent.
+2. Une notification apparaît en bas à droite.
+3. Cliquez sur **"Télécharger maintenant"**.
 
-Si la notification n'apparaît pas :
-1. Cliquez sur l'icône de l'extension dans la barre d'outils.
-2. L'ID devrait être pré-rempli.
-3. Cliquez sur **"Télécharger sans attendre"**.
+### Pour les liens Magnet 🧲
+1. Cliquez sur l'icône de l'extension et allez dans l'onglet **"Réglages"**.
+2. Entrez votre **Passkey** (disponible dans votre profil Ygg ou dans l'URL d'un fichier .torrent téléchargé).
+3. Sauvegardez.
+4. Sur la page du torrent, un nouveau bouton **"🧲 Magnet"** apparaîtra sous le bouton de téléchargement habituel.
+
+## 🤝 Crédits
+
+Ce projet est le fruit de la collaboration communautaire :
+
+- **Extension & Intégration** : MoowGlax
+- **Logique Magnet / TurboBlague** : [Coronawalrus](https://github.com/coronawalrus)
+
+> "C'est la communauté qui vous fait vivre, ne l'oubliez jamais."
 
 ## ⚠️ Avertissement
 
 Ce projet est à but éducatif uniquement. L'auteur n'est pas responsable de l'utilisation qui en est faite. Assurez-vous de respecter les conditions d'utilisation des sites que vous visitez.
-
-## 📝 Licence
-
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
